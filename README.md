@@ -1,13 +1,8 @@
 # AmazonHelp Support Agent
 
-An AI customer-support agent for AmazonHelp built on the Customer Support
-on Twitter dataset: classifies an incoming message into a
-data-derived intent taxonomy, drafts a reply grounded in how AmazonHelp
-has actually resolved similar issues, and decides auto-handle vs.
-escalate with a stated reason.
+An AI customer-support agent for AmazonHelp built on the Customer Support on Twitter dataset: classifies an incoming message into a data-derived intent taxonomy, drafts a reply grounded in how AmazonHelp has actually resolved similar issues, and decides auto-handle vs. escalate with a stated reason.
 
 ## Status
-
 Honest accounting of what is verified vs. what isn't:
 
 | Component | Status |
@@ -224,9 +219,3 @@ tests/                       51 tests, no network required
 - Escalation thresholds (`CONF_THRESHOLD`, `SIM_THRESHOLD`) are
   reasonable starting values, not fitted — they need a real
   precision/recall curve from the labeled golden set.
-#   H i v e r - S D E - I n t e r n _ A s s i g n m e n t  
- #   H i v e r - S D E - I n t e r n _ A s s i g n m e n t  
- #   H i v e r - S D E - I n t e r n _ A s s i g n m e n t  
- #   H i v e r - S D E - I n t e r n _ A s s i g n m e n t  
- #   H i v e r - S D E - I n t e r n _ A s s i g n m e n t  
- 
