@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+scikit-learn
+langdetect
+google-genai
+pytest
+
+# Optional: enables the RetrievalIndex embeddings backend instead of the
+# TF-IDF fallback (better semantic match). Not installable from the dev
+# sandbox this repo was built in (no Hugging Face network access there),
+# but works fine on a normal machine -- pip install sentence-transformers

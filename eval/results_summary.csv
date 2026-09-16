@@ -1,0 +1,4 @@
+system,n,intent_accuracy,intent_macro_f1,escalate_precision,escalate_recall,auto_handle_rate,missed_escalations
+trivial,203,0.044,0.008,0.66,1.0,0.0,0
+simple,203,0.749,0.733,0.707,0.739,0.31,35
+agent,25,0.72,0.723,0.667,0.154,0.88,11
