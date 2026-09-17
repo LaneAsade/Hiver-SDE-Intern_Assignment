@@ -28,7 +28,7 @@ from src.eval.judge import DIMENSIONS, judge
 from src.eval.metrics import judge_human_agreement
 from src.llm_client import GeminiClient, OpenAIClient, OllamaClient, MockClient
 
-JUDGE_MODEL = os.environ.get("HIVER_JUDGE_MODEL", "gemini-3.5-flash")  # deliberately != DRAFT_MODEL
+JUDGE_MODEL = os.environ.get("HIVER_JUDGE_MODEL", "llama3:latest") 
 SCORES_PATH = "eval/judge_scores.csv"
 SHEET_PATH = "eval/human_scoring_sheet.csv"
 
